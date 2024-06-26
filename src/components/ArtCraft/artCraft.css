@@ -1,0 +1,14 @@
+.zoom{
+  transition: transform .2s;
+}
+.zoom:hover {
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transition: transform .5s;
+  transform: scale(1.2);
+  }
+
+  .text:hover{
+    color: #c90d0dd3;
+  }
