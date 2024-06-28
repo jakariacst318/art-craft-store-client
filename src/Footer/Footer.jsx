@@ -18,12 +18,14 @@ const Footer = () => {
                     <span className="footer-title">Company</span>
                     <a className="link link-hover">About us</a>
                     <a className="link link-hover">Contact</a>
+                    <a className="link link-hover">Privacy policy</a>
                 </div>
                 <div>
-                    <span className="footer-title">Legal</span>
-                    <a className="link link-hover">Terms of use</a>
-                    <a className="link link-hover">Privacy policy</a>
-                    <a className="link link-hover">Cookie policy</a>
+                    <span className="footer-title">Social media</span>
+                    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                    <a href="https://www.linkedin.com/" target="_blank">Linkedin</a>
+                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    
                 </div>
             </footer>
             <div>
