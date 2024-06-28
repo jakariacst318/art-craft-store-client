@@ -9,6 +9,7 @@ import MyArtCraft from "../components/MyArtCraft/MyArtCraft";
 import Login from "../components/Login/Login";
 import Register from "../components/Register/Register";
 import PrivetRoute from "../components/PrivetRoute/PrivetRoute";
+import Update from "../components/Update/Update";
 
 
 const router = createBrowserRouter([
@@ -45,7 +46,12 @@ const router = createBrowserRouter([
             {
                 path: '/details/:id',
                 element: <PrivetRoute><ViewDetails></ViewDetails></PrivetRoute>,
-                loader: ({params}) => fetch(`http://localhost:5000/artCraft/${params.id}`)
+                loader: ({ params }) => fetch(`http://localhost:5000/artCraft/${params.id}`)
+            },
+            {
+                path: '/update/:id',
+                element: <Update></Update>,
+                loader: ({ params }) => fetch(`http://localhost:5000/artCraft/${params.id}`)
             },
 
         ]

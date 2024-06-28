@@ -38,7 +38,6 @@ const ViewDetails = () => {
 
                         <p className="text-black text-xl font-semibold"> Description: <span className=" text-slate-600 font-medium">{description}</span> </p>
                         
-                        {/* <button className="btn btn-primary">Get Started</button> */}
                     </div>
                 </div>
             </div>

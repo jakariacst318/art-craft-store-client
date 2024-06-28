@@ -14,7 +14,7 @@ const Home = () => {
                 <h2 className="text-3xl text-center font-semibold "> Craft Items Section </h2>
             </div>
 
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10 p-5">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10 p-5 justify-center">
                 {
                     arts.map(art => <ArtCraft
                         key={art._id}
